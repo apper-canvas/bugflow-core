@@ -4,20 +4,46 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
+theme: {
     extend: {
       colors: {
+        border: '#e2e8f0',
+        input: '#e2e8f0',
+        ring: '#6366f1',
+        background: '#ffffff',
+        foreground: '#0f172a',
         primary: {
           DEFAULT: '#6366f1',
           light: '#818cf8',
-          dark: '#4f46e5'
+          dark: '#4f46e5',
+          foreground: '#ffffff'
         },
         secondary: {
           DEFAULT: '#06b6d4',
           light: '#22d3ee',
-          dark: '#0891b2'
+          dark: '#0891b2',
+          foreground: '#ffffff'
         },
-        accent: '#f59e0b',
+        destructive: {
+          DEFAULT: '#ef4444',
+          foreground: '#ffffff'
+        },
+        muted: {
+          DEFAULT: '#f1f5f9',
+          foreground: '#64748b'
+        },
+        accent: {
+          DEFAULT: '#f59e0b',
+          foreground: '#0f172a'
+        },
+        popover: {
+          DEFAULT: '#ffffff',
+          foreground: '#0f172a'
+        },
+        card: {
+          DEFAULT: '#ffffff',
+          foreground: '#0f172a'
+        },
         surface: {
           50: '#f8fafc',
           100: '#f1f5f9',
