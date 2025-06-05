@@ -1,0 +1,167 @@
+[
+  {
+    "id": "1001",
+    "title": "Login form validation not working properly",
+    "description": "When users enter invalid credentials, the error message doesn't appear. The form should show clear validation feedback for both email format and password requirements.",
+    "status": "open",
+    "priority": "high",
+    "createdAt": "2024-01-15T09:30:00Z",
+    "updatedAt": "2024-01-15T09:30:00Z",
+    "reporter": "Sarah Chen",
+    "assignee": "Alex Rodriguez"
+  },
+  {
+    "id": "1002",
+    "title": "Dashboard charts not loading on mobile devices",
+    "description": "The analytics charts on the main dashboard fail to render on mobile browsers. This affects user engagement and data accessibility for mobile users.",
+    "status": "in-progress",
+    "priority": "critical",
+    "createdAt": "2024-01-14T14:20:00Z",
+    "updatedAt": "2024-01-15T08:45:00Z",
+    "reporter": "Mike Johnson",
+    "assignee": "Emma Davis"
+  },
+  {
+    "id": "1003",
+    "title": "Search function returns duplicate results",
+    "description": "The global search feature is returning duplicate entries in search results. This happens particularly with products that have multiple variants.",
+    "status": "testing",
+    "priority": "medium",
+    "createdAt": "2024-01-13T11:15:00Z",
+    "updatedAt": "2024-01-14T16:30:00Z",
+    "reporter": "Lisa Wang",
+    "assignee": "David Thompson"
+  },
+  {
+    "id": "1004",
+    "title": "Email notifications not being sent",
+    "description": "Users are not receiving email notifications for important account updates, password resets, and order confirmations. SMTP configuration might need review.",
+    "status": "resolved",
+    "priority": "critical",
+    "createdAt": "2024-01-12T08:00:00Z",
+    "updatedAt": "2024-01-14T17:20:00Z",
+    "reporter": "James Wilson",
+    "assignee": "Sophie Martinez"
+  },
+  {
+    "id": "1005",
+    "title": "Profile picture upload fails for large images",
+    "description": "When users try to upload profile pictures larger than 2MB, the upload fails silently without any error message. Need to implement proper file size validation and compression.",
+    "status": "open",
+    "priority": "low",
+    "createdAt": "2024-01-11T13:45:00Z",
+    "updatedAt": "2024-01-11T13:45:00Z",
+    "reporter": "Rachel Green",
+    "assignee": ""
+  },
+  {
+    "id": "1006",
+    "title": "Dark mode toggle not persisting across sessions",
+    "description": "The dark mode preference resets to light mode every time users close and reopen the application. Theme preference should be saved in localStorage.",
+    "status": "in-progress",
+    "priority": "medium",
+    "createdAt": "2024-01-10T16:30:00Z",
+    "updatedAt": "2024-01-13T10:15:00Z",
+    "reporter": "Tom Anderson",
+    "assignee": "Alex Rodriguez"
+  },
+  {
+    "id": "1007",
+    "title": "Shopping cart items disappear on page refresh",
+    "description": "Items added to the shopping cart are lost when users refresh the page or navigate away and come back. Cart state should persist in session storage.",
+    "status": "closed",
+    "priority": "high",
+    "createdAt": "2024-01-09T12:20:00Z",
+    "updatedAt": "2024-01-12T15:40:00Z",
+    "reporter": "Jennifer Lee",
+    "assignee": "Emma Davis"
+  },
+  {
+    "id": "1008",
+    "title": "API response times are extremely slow",
+    "description": "Database queries are taking 3-5 seconds to complete, especially for user profile and transaction history endpoints. Performance optimization needed urgently.",
+    "status": "open",
+    "priority": "critical",
+    "createdAt": "2024-01-08T07:30:00Z",
+    "updatedAt": "2024-01-08T07:30:00Z",
+    "reporter": "Kevin Park",
+    "assignee": "David Thompson"
+  },
+  {
+    "id": "1009",
+    "title": "Export feature generates corrupted PDF files",
+    "description": "When users try to export their data as PDF, the generated files are corrupted and cannot be opened. This affects report generation functionality.",
+    "status": "testing",
+    "priority": "medium",
+    "createdAt": "2024-01-07T14:10:00Z",
+    "updatedAt": "2024-01-10T11:25:00Z",
+    "reporter": "Maria Garcia",
+    "assignee": "Sophie Martinez"
+  },
+  {
+    "id": "1010",
+    "title": "Social media login buttons not working",
+    "description": "Google and Facebook authentication buttons are non-functional. Users clicking on them see a blank page instead of the OAuth flow.",
+    "status": "resolved",
+    "priority": "high",
+    "createdAt": "2024-01-06T09:45:00Z",
+    "updatedAt": "2024-01-09T14:30:00Z",
+    "reporter": "Chris Brown",
+    "assignee": "Alex Rodriguez"
+  },
+  {
+    "id": "1011",
+    "title": "Responsive design breaks on tablet devices",
+    "description": "The navigation menu and content layout don't adapt properly to tablet screen sizes (768px - 1024px). Elements overlap and become unusable.",
+    "status": "open",
+    "priority": "medium",
+    "createdAt": "2024-01-05T15:20:00Z",
+    "updatedAt": "2024-01-05T15:20:00Z",
+    "reporter": "Anna Thompson",
+    "assignee": "Emma Davis"
+  },
+  {
+    "id": "1012",
+    "title": "Form auto-save feature causes browser crashes",
+    "description": "The auto-save functionality for long forms is causing memory leaks and browser crashes, particularly in Chrome and Safari on MacOS.",
+    "status": "in-progress",
+    "priority": "critical",
+    "createdAt": "2024-01-04T11:00:00Z",
+    "updatedAt": "2024-01-07T09:15:00Z",
+    "reporter": "Daniel Kim",
+    "assignee": "David Thompson"
+  },
+  {
+    "id": "1013",
+    "title": "Accessibility issues with keyboard navigation",
+    "description": "Users cannot navigate through the application using only keyboard input. Missing focus indicators and improper tab order throughout the interface.",
+    "status": "open",
+    "priority": "low",
+    "createdAt": "2024-01-03T10:30:00Z",
+    "updatedAt": "2024-01-03T10:30:00Z",
+    "reporter": "Emily Rodriguez",
+    "assignee": ""
+  },
+  {
+    "id": "1014",
+    "title": "Payment processing fails with international cards",
+    "description": "Credit cards issued outside the US are being rejected during checkout process. This is significantly impacting international sales and customer satisfaction.",
+    "status": "testing",
+    "priority": "critical",
+    "createdAt": "2024-01-02T13:15:00Z",
+    "updatedAt": "2024-01-06T16:45:00Z",
+    "reporter": "Robert Taylor",
+    "assignee": "Sophie Martinez"
+  },
+  {
+    "id": "1015",
+    "title": "Image gallery thumbnails not generating properly",
+    "description": "Product image thumbnails are not being generated correctly, showing placeholder images instead. This affects the visual appeal of product listings.",
+    "status": "closed",
+    "priority": "low",
+    "createdAt": "2024-01-01T08:20:00Z",
+    "updatedAt": "2024-01-04T12:10:00Z",
+    "reporter": "Hannah Wilson",
+    "assignee": "Alex Rodriguez"
+  }
+]
